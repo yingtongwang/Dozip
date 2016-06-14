@@ -9,10 +9,8 @@ Android WebView 本地更新-ZIP文件下载，解压，加载等。
                 PATH, this, mZipOverListener);
         //DownLoaderTask task = new DownLoaderTask("http://192.168.9.155/johnny/test.h264", getCacheDir().getAbsolutePath()+"/", this);
         task.execute();
-    }
-    
-  
- /**
+    } 
+    /**
      * 将资源文件打包到Assets中，第一次加载时 拷贝到SD
      * @param strOutFileName
      */
